@@ -43,7 +43,7 @@ const Hero = () => {
               className="bounce-transition hover:scale-110"
               asChild
             >
-              <a href="https://preview--lobby-play-now.lovable.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://app.lobbynow.app" target="_blank" rel="noopener noreferrer">
                 Start a Quickmatch
               </a>
             </Button>
