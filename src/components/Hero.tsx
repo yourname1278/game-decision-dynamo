@@ -9,12 +9,12 @@ const Hero = () => {
         <img
           src="/hero-gaming.jpg"
           alt="Friends deciding a game together"
-          className="w-full h-full object-cover opacity-50"
+          className="w-full h-full object-cover opacity-80"
           style={{ display: 'block' }}
           onLoad={() => console.log('Hero image loaded successfully')}
           onError={(e) => console.error('Hero image failed to load:', e)}
         />
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/30"></div>
       </div>
 
       {/* Content */}
