@@ -10,6 +10,8 @@ const Hero = () => {
           src="/hero-gaming.jpg"
           alt="Friends deciding a game together"
           className="w-full h-full object-cover opacity-20"
+          onLoad={() => console.log('Hero image loaded successfully')}
+          onError={(e) => console.error('Hero image failed to load:', e)}
         />
         <div className="absolute inset-0 gaming-gradient"></div>
       </div>
