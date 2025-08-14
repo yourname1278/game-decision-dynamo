@@ -1,11 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import heroImage from "@/assets/hero-gaming.jpg";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
+        <img
+          src={heroImage}
+          alt="Friends deciding a game together"
+          className="w-full h-full object-cover opacity-20"
+        />
         <div className="absolute inset-0 gaming-gradient"></div>
       </div>
 
