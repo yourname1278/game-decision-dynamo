@@ -25,8 +25,17 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="py-20">
-      <div className="container mx-auto px-6">
+    <section id="how-it-works" className="py-20 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/hero-warhammer.jpg"
+          alt="Strategic gaming planning"
+          className="w-full h-full object-cover opacity-80"
+        />
+        <div className="absolute inset-0 bg-black/30"></div>
+      </div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             How it works
