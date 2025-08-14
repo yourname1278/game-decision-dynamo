@@ -51,7 +51,7 @@ const Header = () => {
               size="lg"
               asChild
             >
-              <a href="https://app.lobbynow.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://preview--lobby-play-now.lovable.app/" target="_blank" rel="noopener noreferrer">
                 Start a Quickmatch
               </a>
             </Button>
